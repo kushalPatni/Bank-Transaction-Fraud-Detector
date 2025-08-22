@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ### 1) Run full Streamlit app (train + dashboard)
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run fraud_app.py
 ```
 
 This will open a browser UI where you can:
