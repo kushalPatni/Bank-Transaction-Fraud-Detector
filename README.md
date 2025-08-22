@@ -32,7 +32,7 @@ A sample dataset (`AIML Dataset.csv`) is used for training and testing. Expected
 
 ---
 
-## 🚀 Features
+## Features
 
 * Data ingestion with optional chunked reading and stratified sampling for large files
 * Memory-efficient preprocessing and feature engineering (balance changes, hour, round-amount indicator)
@@ -45,7 +45,7 @@ A sample dataset (`AIML Dataset.csv`) is used for training and testing. Expected
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Create a virtual environment and install dependencies:
 
@@ -56,7 +56,7 @@ source .venv/bin/activate    # macOS / Linux
 pip install -r requirements.txt
 ```
 
-## ▶️ How to run
+## How to run
 
 ### 1) Run full Streamlit app (train + dashboard)
 
@@ -82,7 +82,7 @@ This app loads saved models and preprocessing objects, lets users pick a model, 
 
 ---
 
-## 🧪 Save / Load Models
+## Save / Load Models
 
 The app uses `joblib` to save/load models and preprocessing objects.
 
@@ -104,7 +104,7 @@ scaler = joblib.load('models/scaler.pkl')
 
 ---
 
-## 🛠️ Tips to improve model performance
+##  Tips to improve model performance
 
 * **Feature engineering:** add aggregate user features (transaction counts, avg amount per account, time since last txn).
 * **Temporal validation:** split data by time to avoid leakage and simulate real-world performance.
@@ -116,20 +116,20 @@ scaler = joblib.load('models/scaler.pkl')
 ---
 
 
-## 🧾 Notes
+## Notes
 
 * The provided app is for **educational and demonstration purposes**. For production use, include secure data handling, logging, monitoring, model drift detection, and stricter validation.
 * Ensure you have the right to use any real transaction data and follow data privacy regulations.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, improvements, and bug reports are welcome. Create an issue or open a pull request with a clear description and tests where appropriate.
 
 ---
 
-## 📜 License
+## License
 
 This project is released under the **MIT License**. See `LICENSE` for details.
 
